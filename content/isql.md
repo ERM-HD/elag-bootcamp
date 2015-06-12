@@ -46,7 +46,7 @@ Then we can use:
     DB.DBA.TTLP_MT(
        file_to_string_output('/tmp/example.ttl'),
        '',
-       '<http://www.example.org/example/>'
+       'http://www.example.org/example/'
     );
 
 
